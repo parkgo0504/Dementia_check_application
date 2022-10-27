@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/a"
+        android:title="치매 검사"/>
+    <item
+        android:id="@+id/b"
+        android:title="치매 병원 위치"/>
+    <item
+        android:id="@+id/c"
+        android:title="치매 정보"/>
+
+    <item
+        android:id="@+id/d"
+        android:title="치매 게임"/>
+
+
+</menu>
+
+
+
+
+
+

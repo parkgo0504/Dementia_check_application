@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이름"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input a name">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="점수"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input a number">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dbb1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:onClick="insert"
+            android:text="초기화">
+
+        </Button>
+
+        <Button
+            android:id="@+id/dbb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="search"
+            android:text="입력"></Button>
+
+        <Button
+            android:id="@+id/dbb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="search"
+            android:text="조회"></Button>
+
+        <Button
+            android:id="@+id/dbb4"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:onClick="search"
+            android:text="수정"></Button>
+
+
+        <Button
+            android:id="@+id/dbb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="search"
+            android:text="삭제">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="584dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/naemresult"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:hint="">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/telresult"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:hint="">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+</LinearLayout>

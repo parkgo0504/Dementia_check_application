@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/m1_tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  치매는 정상적으로 생활해오던 사람이 후천적으로 다양한 원인으로 인해 기억, 언어, 판단력 등의 여러 영역의 인지기능이 떨어져서 일상생활에 상당한 지장이 나타나는 상태로, 치매는 어떤 하나의 질병 명이 아니라, 특정한 조건에서 여러 증상들이 함께 나타나는 증상들의 묶음인 증후군입니다. \n  치매의 대표적인 초기 증상은 기억력 장애입니다. 나이가 들면서 젊었을 때에 비해 기억력은 저하 되지만, 치매는 이러한 정상적인 변화와는 다릅니다. 즉, 치매는 질병이며 나이가 들어서 생기는 자연스러운 결과가 아닙니다. 나이가 들면서 생기는 기억력 저하는 대개 사소한 일들에 국한되어 있으며, 개인의 일상생활을 심각하게 저해하지 않습니다.
+\n  과거에는 치매를 망령, 노망이라고 부르면서 노인이면 당연히 겪게 되는 노화 현상이라고 생각했으나, 최근의 많은 연구를 통해 분명한 뇌 질환으로 인식되고 있습니다. 두통이나 만성 기침, 피로감 등의 여러 증상들도 그 원인에 따라 치료법이 다르듯, 치매도 그 원인을 밝혀 적절한 치료법을 찾아내는 것이 원칙이므로, 치매에 대한 정확한 진단이 무엇보다도 중요합니다.
+간단하게 정상 노인과 치매 노인의 기억력 차이를 비교해보면 아래와 같습니다."
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/m1_tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정상노인의 기억력 저하\n뇌의 자연적인 노화현상이 원인이다. \n경험한 것의 일부를 잊어버린다. \n잊어버리는 것이 많아져도 진행되지 않는다. \n잊어버린 사실을 스스로 안다. \n일상생활에 지장이 없다."
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/m1_tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="치매노인의 기억장애 \n뇌의 질병이나 손상이 원인이다. \n경험한 것의 전체를 잊어버린다. \n기억장애가 점차 심해지며 판단력도 저하된다. \n잊어버린 사실 자체를 모른다. \n일상생활에 지장을 받는다."
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+</LinearLayout>

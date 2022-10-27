@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="0"
+        android:orientation="vertical" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <RadioGroup
+            android:id="@+id/rga1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rgba1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="남자"
+                android:textSize="25dp"/>
+
+            <RadioButton
+                android:id="@+id/rgba2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="여자"
+                android:textSize="25dp"/>
+
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:hint="생년월일 입력"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center">
+            </EditText>
+
+            <Button
+                android:id="@+id/ba2"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:text="시작하기"
+                android:textSize="30dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/exit1"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="162dp"
+            android:layout_marginEnd="162dp"
+            android:layout_marginBottom="176dp"
+            android:background="@drawable/exitbutton"
+            android:text="나가기"
+            android:textSize="30dp"
+            android:layout_gravity="center">
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>
+

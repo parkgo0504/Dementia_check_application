@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/m3_tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 기억력이 떨어져 일상생활에 영향을 줍니다. \n\n2. 계획을 세우고 해결하는 등 추상적인 사고 능력이 떨어집니다. \n\n3. 익숙한 일을 처리하데 어려움이 생깁니다. \n\n4. 시간과 장소를 혼동합니다.\n\n5. 눈으로 보고 공간적 개념을 이해하는 것이 어려워집니다.\n\n6. 말하거나 글을 쓰는 것이 어려워집니다.\n\n7. 물건을 잘못 간수합니다.\n\n8. 판단력이 감소하거나 그릇된 판단을 자주합니다.\n\n9. 자발성이 감소하고 사회활동이 줄어듭니다.\n\n10. 기분이나 행동의 변화가 옵니다."
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/imfor1" />
+</LinearLayout>

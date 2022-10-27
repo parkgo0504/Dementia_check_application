@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/m5_tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="치매는 불치병 아닌가요? \n그렇지 않습니다.\n치매의 종류 중 10~15% 정도에서 완치가 가능한 것으로 알려져 있습니다. 치매를 일으키는 대사질환이나 영양결핍, 감염성 질환, 수두증 등의 기질적인 원인을 제거하거나 치료하면 완치가 될 수 있습니다. 또한 치매의 원인 중 20~30% 정도를 차지하는 혈관성 치매는 고혈압이나 당뇨, 심장 질환 등 혈관성 위험 인자의 관리와 적절한 치료제의 사용으로 악화를 방지할 수 있습니다. \n치매의 대부분의 원인을 차지하는 알쯔하이머 병도 조기에 발견하여 치료하면 인지기능의 저하를 더 늦출 수 있는 것으로 알려져 있습니다. 따라서 치매의 조기 발견과 치료가 중요하며, 이미 치매가 진행되신 분이라 할지라도 적절한 평가와 치료를 통해 상당히 호전될 수 있습니다."
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/m5_tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="치매는 어떻게 치료를 합니까? \n아세틸콜린 분해효소 억제제로는 Tacrine(CognexTM), donepezil (AriceptTM), rivastigmine(ExelonTM), galantamine (ReminylTM) 등이 FDA에서 공인되어 사용되고 있고, 중등도 이상으로 진행된 알쯔하이머 병에 대해서는 NMDA 길항체로는 memantine (EbixaTM)과 같은 약물이 사용되고 있습니다. \n현재 개발되어 시판되고 있는 치매 치료제는 엄격히 이야기하면 ‘인지기능이 저하되는 속도를 늦추는 치료제’입니다. 알쯔하이머 병의 치료제로 사용되고 있는 약물들의 전체적인 효과를 종합하면 치매로 인한 심각한 장애에 이르는 기간을 늦추어주는 역할을 합니다 이러한 약물은 초기에 오심, 구토, 설사와 같은 위장관계 부작용들을 보일 수 있지만 대체로 안전하게 사용될 수 있습니다. 비약물적 치료로 손상된 인지기능을 보전하거나 회복시키기 위한 인지적 개입과 정신행동증상들을 해결하기 위한 행동적 개입이 있는데, 인지증상이나 행동증상을 경감시키는데 도움이 됩니다. 인지적 개입으로 시간차 회상훈련(spaced retrieval)등의 기억재활, 현실감각훈련, 회상요법 등이 사용됩니다. \n혈관성 치매의 치료는 고혈압, 당뇨, 고지혈증, 비만, 흡연 등 혈관성 위험요인에 대한 치료가 매우 중요합니다. 혈관성 치매에서 가장 중요한 치료는 아스피린 등 혈소판응집 억제제나 와파린 등의 항응고제, 혈류순환개선제등을 투여하여 뇌혈관 질환의 재발이나 악화를 방지하는 것입니다. 혈관성 치매는 이러한 약물치료와 위험요인의 관리를 통해 더 이사의 진행을 예방하는 것이 가능합니다. 또한 알쯔하이머 병에서와 같이 아세틸콜린 분해효소 억제제나 NMDA 수용체 길항제를 사용하여 인지기능개선 효과를 기대할 수 있습니다. \n치매는 인지기능의 장애 외에도 의심행동, 공격적 성향, 불안 및 우울과 같은 행동 및 정동 장애가 흔하게 동반됩니다. 실제적으로 인지기능의 저하보다는 난폭한 행동이나 초조, 수면장애, 배회와 같은 행동들이 치매 환자들 돌볼 때 보호자들을 더 힘들게 만드는 요인이 됩니다. 따라서 정신과 전문의의 평가 상 이러한 정신행동증상이나 정동장애가 치료가 필요하다면 항우울제나 항불안제, 항정신병약물과 같은 치료제를 병행할 수 있으며, 이러한 치료를 통해 많은 호전을 볼 수 있습니다."
+        android:textColor="@color/colorPrimaryDark" />
+
+</LinearLayout>
+
+</ScrollView>

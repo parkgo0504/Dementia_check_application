@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="자신의 기억력에 문제가 있다고 생각하십니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="자신의 기억력이 10년 전보다 나빠졌다고 생각하십니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="자신의 기억력이 같은 또래의  다른 사람들에 비해 나쁘다고  생각하십니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+
+            </RadioGroup>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="기억력 저하로 인해 일상생활에 불편을 느끼십니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+            </RadioGroup>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="최근에 일어난 일을 기억하는  것이 어렵습니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="며칠 전에 나눈 대화 내용을     기억하기 어렵습니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="며칠 전에 한 약속을 기억하기 어렵습니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="물건 둔 곳을 기억하기                      어렵습니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="이전에 비해 물건을 자주          잃어버립니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="집 근처에서 길을 잃은 적이        있습니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="가게에서 2-3가지 물건을 사려고 할 때 물건이름을 기억하기 어렵습니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="가스불이나 전기불 끄는 것을    기억하기 어렵습니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rgbc23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgbc24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/b"
+                android:text="자주 사용하는 전화번호를 기억하기 어렵습니까?"
+                android:textSize="30dp" />
+
+            <RadioGroup
+                android:id="@+id/rgc13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rga1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="예"
+                    android:textSize="25dp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rgba2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="아니오"
+                    android:textSize="25dp"></RadioButton>
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp" />
+
+
+            <Button
+                android:id="@+id/bc1"
+                android:layout_width="101dp"
+                android:layout_height="61dp"
+                android:text="확인">
+
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

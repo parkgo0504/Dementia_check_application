@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/m6_tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 정기적인 건강검진을 받습니다.\n\n2. 활발하게 두뇌를 사용하고 취미활동을 지속합니다. \n\n3. 스트레스를 잘 관리하고 우울증은 잘 치료합니다. \n\n4. 적절한 운동과 충분한 수면을 취합니다. \n\n5. 균형 잡힌 영양을 섭취합니다. \n\n6. 과음과 흡연은 금합니다. \n\n7. 머리를 다치지 않도록 합니다. \n\n8. 성병에 걸리지 않도록 합니다. \n\n9. 약물남용을 피하십시오. \n\n10. 기억력이 떨어지면 조기에 진료를 받아야 합니다. "
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="10dp"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/imfor3" />
+
+</LinearLayout>

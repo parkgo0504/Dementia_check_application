@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.text">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCGDogcEnazArxRDRqlW1DNnJaN7-TVGQk" />
+
+
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Map"
+            android:label=""></activity>
+
+        <activity
+            android:name=".DbHelperM"
+            android:label=""></activity>
+
+        <activity
+            android:name=".First1"
+            android:label=""></activity>
+
+        <activity
+            android:name=".First2"
+            android:label=""></activity>
+
+        <activity
+            android:name=".First3"
+            android:label="6페이지 중 1페이지">
+
+        </activity>
+        <activity
+            android:name=".First4"
+            android:label="6페이지 중 2페이지">
+        </activity>
+
+
+        <activity
+            android:name=".First5"
+            android:label="6페이지 중 3페이지">
+
+        </activity>
+
+        <activity
+            android:name=".First6"
+            android:label="6페이지 중 4페이지">
+
+        </activity>
+
+        <activity
+            android:name=".First7"
+            android:label="6페이지 중 5페이지">
+
+        </activity>
+
+        <activity
+            android:name=".First8"
+            android:label="6페이지 중 6페이지">
+
+        </activity>
+        <activity
+            android:name=".First9"
+            android:label=""></activity>
+        <activity
+            android:name=".First10s"
+            android:label=""></activity>
+
+        <activity
+            android:name=".First11s"
+            android:label=""></activity>
+        <activity
+            android:name=".First12s"
+            android:label=""></activity>
+
+
+        <activity
+            android:name=".Firstend"
+            android:label="">
+
+        </activity>
+
+
+
+        <activity
+            android:name=".Third1"
+            android:label="">
+
+        </activity>
+
+        <activity
+            android:name=".Third2"
+            android:label="">
+
+        </activity>
+
+        <activity
+            android:name=".Information"
+            android:label="Information">
+
+        </activity>
+        <activity
+            android:name=".Gamemain"
+            android:label="Gamemain">
+
+        </activity>
+        <activity
+            android:name=".Game1"
+            android:label="Game1">
+
+        </activity>
+        <activity
+            android:name=".Game2"
+            android:label="Game2">
+
+        </activity>
+        <activity
+            android:name=".Game3"
+            android:label="Game3">
+
+        </activity>
+        <activity
+            android:name=".Game4"
+            android:label="Game4">
+
+        </activity>
+        <activity
+            android:name=".Infor1"
+            android:label="Infor1">
+
+        </activity>
+        <activity
+            android:name=".Infor2"
+            android:label="Infor2">
+
+        </activity> <activity
+        android:name=".Infor3"
+        android:label="Infor3">
+
+    </activity>
+        <activity
+            android:name=".Infor4"
+            android:label="Infor4">
+
+        </activity>
+
+        <activity
+        android:name=".Infor5"
+        android:label="Infor5">
+
+    </activity>
+        <activity
+        android:name=".Infor6"
+        android:label="Infor6">
+
+    </activity>
+
+
+
+
+
+    </application>
+
+</manifest>

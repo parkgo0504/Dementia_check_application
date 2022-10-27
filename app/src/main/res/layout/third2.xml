@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="350dp"
+        android:layout_height="407dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"></TextView>
+
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:textSize="13pt"
+        android:onClick="onClick"
+        android:text="스스로 자기진단"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:textSize="13pt"
+        android:onClick="onClick"
+        android:text="예방방법"
+        ></Button>
+
+
+<Button
+    android:id="@+id/exit"
+    android:layout_width="300dp"
+    android:layout_height="70dp"
+    android:layout_gravity="center"
+    android:textSize="13pt"
+    android:onClick="onClick"
+    android:text="나가기"
+    ></Button>
+
+
+</LinearLayout>
+
+

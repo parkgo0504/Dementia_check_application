@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:accessibilityPaneTitle="앱">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="이 그림은 무엇 입니까?"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"></TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="228dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ima1"
+                android:layout_width="254dp"
+                android:layout_height="229dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/post" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rga1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/rgba1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="책"
+                android:textSize="25dp"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rgba2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="우편"
+                android:textSize="25dp"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rgba3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="도장"
+                android:textSize="25dp"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rgba4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="30dp"
+                android:text="사과"
+                android:textSize="25dp"></RadioButton>
+
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/next3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="162dp"
+                android:layout_marginEnd="162dp"
+                android:layout_marginBottom="176dp"
+                android:background="@drawable/exitbutton"
+                android:text="다음"
+                android:textSize="30dp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

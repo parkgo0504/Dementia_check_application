@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/m2_tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  치매는 뇌질환으로 인한 하나의 증후군으로 여러 가지 다양한 질환에 의해 생길 수 있습니다. 치매를 일으키는 원인 질환은 70가지 이상으로 알려져 있으며, 치매의 원인에 따른 분류와 대표적 질환은 다음과 같습니다. "
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/m2_tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="퇴행성 뇌질환 \n->알쯔하이머 치매, 픽병, 루이체별, 파킨슨병, 진행성핵상마비 등 \n뇌혈관질환\n->뇌경색, 뇌출혈 등 \n결핍성질환\n->베르니케뇌증, 비타민 B12 결핍증 등 \n대사성 질환\n->저산소증, 갑상선기능저하, 간성뇌병증, 요독증, 윌슨병 등 \n중독성 질환\n->알코올중독, 일산화탄소중독, 약물중독, 중금속중독 등 \n감염성 질환\n->신경매독, 크로이쯔펠트야콥병, 후천성면역결핍증 등 \n수두증\n->정상압수두증 등 \n뇌종양\n->뇌수막종 등 \n뇌외상\n->뇌좌상 등 "
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/m2_tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  치매는 회복 유무에 따라서 크게 비가역적 치매와 가역적 치매로 분류할 수 있습니다. 비가역적 치매의 원인질환은 알쯔하이머병, 루이체 치매, 파킨슨병등이 있습니다. 가역적 치매의 원인질환은 우울증, 갑상선 기능저하증, 비타민 B12 및 엽산 결핍증, 당뇨병, 만성 간질환 및 신장질환, 신경매독등이 있습니다. 이들 가역적 치매는 전체 치매의 약 10-15%를 차지하며, 조기에 적절히 치료하면 증상의 호전이나 완치를 기대할 수 있습니다. 일반적으로 치매는 알쯔하이머병이 가장 많고, 혈관성 치매가 20-30%를 차지하며, 나머지는 기타 원인에 의한 치매로 나눌 수 있습니다."
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
